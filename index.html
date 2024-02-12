@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Змейка</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="gameContainer">
+    <div id="gameArea">
+        <canvas id="gameCanvas"></canvas>
+        <div id="gameOverModal" class="hidden">
+            <div class="modal-content">
+                <h2>Game Over!</h2>
+                <p>Your score: <span id="score"></span></p>
+                <button onclick="restartGame()">Play Again</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="snake.js"></script>
+</body>
+</html>
